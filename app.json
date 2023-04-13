@@ -9,17 +9,17 @@
         "SAML_ENTRYPOINT": {
           "description": "Salesforce IdP SAML entrypoint",
           "required" : true,
-          "value":"https://test.salesforce.com/idp/endpoint/HttpRedirect"
+          "value":"https://ciam-2023-demo.my.salesforce.com/idp/endpoint/HttpRedirect"
         },
         "SAML_ISSUER": {
           "description": "Local app issuer",
           "required" : true,
-          "value":"sp-saml"
+          "value":"passport-saml"
         },
         "SAML_CERT": {
           "description": "Salesforce SAML certificate",
           "required" : true,
-          "value":""
+          "value":"MIIErDCCA5SgAwIBAgIOAYd7vHnqAAAAAANdooIwDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEzQXByMjAyM18xNzQ5MjExGDAWBgNVBAsMDzAwRERwMDAwMDAwZlR5aDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjMwNDEzMTc0OTIyWhcNMjQwNDEzMTIwMDAwWjCBkDEoMCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMTNBcHIyMDIzXzE3NDkyMTEYMBYGA1UECwwPMDBERHAwMDAwMDBmVHloMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIy9h6ZcL5w6ALIZZWCD+f6MT8pOYlLh36+uJF2a0H/iY9JIxMhtOzf6VFasEAaPvHvZudiAWVJNLwzvzEMPfgteE95cWoHHBTsIUxcV+TgAUKaWvJIx90lmd/cU/P7LciKM/f6cRSnHPMyACMHu6/sKkqbzFHj4A5fU2TfOpu2adH4XAWY8YLozVIEmspP1JIB5FaiSpfAciPV3c0OS0cEffv0EMO9zaBlK43ba8BpoHLskQzZ4jbiiTFQX+rGrQyYC14lwYOtrF2sMQR4O1/AbbipM1Xtgr3RvJ+1tRVgRb60LjEB03atpjmRevBGS3rW57WuGzEEtzM7/sC714wkCAwEAAaOCAQAwgf0wHQYDVR0OBBYEFC1mldEbiFvrs3RJdmppPuRVwHeMMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AULWaV0RuIW+uzdEl2amk+5FXAd4yhgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzEzQXByMjAyM18xNzQ5MjExGDAWBgNVBAsMDzAwRERwMDAwMDAwZlR5aDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGHe7x56gAAAAADXaKCMA0GCSqGSIb3DQEBCwUAA4IBAQBaycMdL4NT4MQucrvC/kf+Ui1w/bG/2S2F/g30euBwC8Zyf1M+uAQc0+Akpa6a8gfOatc/OwW8/CYp9tfwiRacv3wus0aeOzH5Cm4c+APqM95CrtlDHF2WuQv7s6saZaKgKUNBoU+UAOKp02YF/r72Aj4AddIuWcmM9I2u3DmM2yFYjUd1MDHM0TVz6kKizgaO1y388qahgpNM3eZdU2GVl2CqWSfZk6HxLf34KV8wgxC4dRy8MGKSgsa+DrylUcxgH8XZ2JMMTDOyGMHqrPDb6mDCuDlVIah4RHN7EX/YncVpf8k5s2ljHY3h2TwWkSioau/8PK7l5vNO/X69sx7e"
         },
         "SAML_IDENTIFIER_FORMAT": {
           "description": "SAML nameId format",
@@ -34,7 +34,7 @@
         "SF_HOME": {
           "description": "Home Salesforce url",
           "required" : true,
-          "value":"https://test.salesforce.com/"
+          "value":"https://login.salesforce.com/"
         }
     }
 }
