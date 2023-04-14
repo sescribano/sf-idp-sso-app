@@ -34,7 +34,7 @@
         "SF_HOME": {
           "description": "Home Salesforce url",
           "required" : true,
-          "value":"https://login.salesforce.com/"
+          "value":"https://ciam-2023-demo.my.site.com/identity"
         }
     }
 }
